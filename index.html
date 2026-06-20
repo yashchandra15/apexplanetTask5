@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ApexPlanet Internship Project</title>
+
+<meta name="description" content="Web Development Internship Project">
+<meta name="keywords" content="HTML,CSS,JavaScript">
+<meta name="author" content="Yash Chandra">
+
+<link rel="icon" href="favicon.ico">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>ApexPlanet Project</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <button id="themeBtn">🌙</button>
+</header>
+
+<section class="hero">
+    <h2>Welcome to My Internship Project</h2>
+    <p>HTML, CSS, JavaScript, Weather API & Todo App</p>
+</section>
+
+<section class="cards">
+
+    <div class="card">
+        <h3>Weather App</h3>
+        <input type="text" id="cityInput" placeholder="Enter City">
+        <button onclick="getWeather()">Search</button>
+        <div id="weatherResult"></div>
+    </div>
+
+    <div class="card">
+        <h3>Todo App</h3>
+
+        <input type="text" id="taskInput">
+
+        <button onclick="addTask()">Add</button>
+
+        <ul id="taskList"></ul>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Yash Chandra</p>
+</footer>
+
+<script src="js/utils.js"></script>
+<script src="js/api.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/todo.js"></script>
+<script src="js/ui.js"></script>
+
+</body>
+</html>

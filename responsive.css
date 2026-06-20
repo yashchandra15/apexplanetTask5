@@ -1,0 +1,12 @@
+@media(max-width:768px){
+
+nav{
+display:flex;
+flex-direction:column;
+}
+
+.hero h2{
+font-size:24px;
+}
+
+}

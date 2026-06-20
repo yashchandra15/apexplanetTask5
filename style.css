@@ -1,0 +1,51 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
+}
+
+section{
+padding:40px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:10px;
+box-shadow:0 4px 8px rgba(0,0,0,.1);
+}
+/* DARK MODE */
+
+.dark{
+    background:#121212;
+    color:#ffffff;
+}
+
+.dark .card{
+    background:#1e1e1e;
+    color:white;
+    box-shadow:0 4px 10px rgba(255,255,255,.1);
+}
+
+.dark input,
+.dark textarea{
+    background:#2a2a2a;
+    color:white;
+    border:1px solid #555;
+}
+
+.dark button{
+    background:#009688;
+    color:white;
+}
+
+.dark a{
+    color:#80cbc4;
+}
